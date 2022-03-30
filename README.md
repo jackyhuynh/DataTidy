@@ -13,8 +13,13 @@ Data Mining using Python is a set of lesson that introduce to Data Mining using 
 - ANN
 - SVM
 
-## Documents/Research Paper
-Link your research paper <a href="https://github.com/jackyhuynh/template-git-jupiter-notebook-md/blob/main/documents/resarch-sample.pdf">here</a> if you need
+## Resources:
+- [Python 3 Standard Library](https://docs.python.org/3/index.html)
+- [NumPy Reference Document](https://numpy.org/doc/stable/reference/index.html)
+- [Pandas Document](https://pandas.pydata.org/docs/)
+- [Matplotlib Document](https://matplotlib.org/2.0.2/index.html)
+- [Scikit-Lean Document](https://scikit-learn.org/stable/modules/classes.html)
+
 
 ## Technology
 List of technology
