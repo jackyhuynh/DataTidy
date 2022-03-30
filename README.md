@@ -1,10 +1,17 @@
-# TEMPLATE for JUPITER notebook
+# Data Mining Using Python
 
 ## Introduction
- Simply introduce the project that specically built with Jupiter Notebook. 
-I believe the simplier the Readme file, the easier to read.
-- You can also keep this private and organize this GitHub as a private libary for yourself.
-<img src="https://github.com/jackyhuynh/template-git-jupiter-notebook-md/blob/main/images/instruction.JPG">
+
+Data Mining using Python is a set of lesson that introduce to Data Mining using Python:
+- Data PreProcessing
+- Clustering
+- Decision Tree
+- Evaluating Classifiers
+- KNN & Ensemble
+- Naive Bayes & Bayesian Network
+- Regression
+- ANN
+- SVM
 
 ## Documents/Research Paper
 Link your research paper <a href="https://github.com/jackyhuynh/template-git-jupiter-notebook-md/blob/main/documents/resarch-sample.pdf">here</a> if you need
