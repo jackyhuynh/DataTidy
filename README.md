@@ -1,17 +1,10 @@
-# Data Preprocessing Using Python
+# Data Types and Data Operation Using Python
 
 ## Introduction
 
 Data Mining using Python is a set of lesson that introduce to Data Mining using Python:
-- Data PreProcessing
-- Clustering
-- Decision Tree
-- Evaluating Classifiers
-- KNN & Ensemble
-- Naive Bayes & Bayesian Network
-- Regression
-- ANN
-- SVM
+- Data Types
+- Data Operations
 
 ## Resources:
 - [Python 3 Standard Library](https://docs.python.org/3/index.html)
