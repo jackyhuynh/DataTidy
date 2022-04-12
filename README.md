@@ -4,9 +4,9 @@
 
 Data Mining using Python is a set of lesson that introduce to Data Mining using Python. This is the first serial which includes:
 - Data pre-processing
-- Dimensionality reduction
-- Sampling
-- Feature reduction
+  - Dimensionality reduction
+  - Sampling
+  - Feature reduction
 
 ## Sampling
 - Identify statistically significant
@@ -29,13 +29,17 @@ Data Mining using Python is a set of lesson that introduce to Data Mining using 
 - reduce the dimensionality of the data
 - Redundant feature: duplicate feature
 - Irrelevant Feature: contain no information that is useful for the data mining task
-- Embedded: Feature selection occurs naturally as part of the data mining algorithm
+- Embedded based: Feature selection occurs naturally as part of the data mining algorithm
   - Example: Decision Tree
-- Filter: Feature are selected before data-mining algorithm is running
+- Filter based: Feature are selected before data-mining algorithm is running
   - Example: Correlation-based feature selection
 - Wrapper based: Use the data-mining algorithm as a black box to find the best subset attributes
   - Example: Brute force feature selection
 
+## Dimensionality Reduction:
+- Dimensionality: number of attributes in a datasets
+- As dimensionality increase, data becomes more spare (difficult to clustering and meaningful measure distance)
+- 
 
 ## Resources:
 - [Python 3 Standard Library](https://docs.python.org/3/index.html)
