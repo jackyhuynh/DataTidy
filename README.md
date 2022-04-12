@@ -25,7 +25,18 @@ Data Mining using Python is a set of lesson that introduce to Data Mining using 
 - Technique for data preprocessing
 - Feature, attribute vs. variable: column in our dataset
 - Feature is often used when talking about removing, creating, or transforming attributes
-- 
+- Selecting a subset of attributes to improve the performance of a learning algorithm
+- reduce the dimensionality of the data
+- Redundant feature: duplicate feature
+- Irrelevant Feature: contain no information that is useful for the data mining task
+- Embedded: Feature selection occurs naturally as part of the data mining algorithm
+  - Example: Decision Tree
+- Filter: Feature are selected before data-mining algorithm is running
+  - Example: Correlation-based feature selection
+- Wrapper based: Use the data-mining algorithm as a black box to find the best subset attributes
+  - Example: Brute force feature selection
+
+
 ## Resources:
 - [Python 3 Standard Library](https://docs.python.org/3/index.html)
 - [NumPy Reference Document](https://numpy.org/doc/stable/reference/index.html)
