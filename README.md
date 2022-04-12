@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Data Mining using Python is a set of lesson that introduce to Data Mining using Python:
+Data Mining using Python is a set of lesson that introduce to Data Mining using Python. This is the first serial which includes:
 - Data Types
 - Data Operations
 
