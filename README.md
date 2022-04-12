@@ -3,8 +3,20 @@
 ## Introduction
 
 Data Mining using Python is a set of lesson that introduce to Data Mining using Python. This is the first serial which includes:
-- Data Types
-- Data Operations
+- Data pre-processing
+- Dimensionality reduction
+- Sampling
+- Feature reduction
+
+## Sampling
+- Identify statistically significant
+- Watch out for data bias
+- Try to understand the data source
+- Sample must present whole population to avoid bias
+- Limiting analyst a subset of data
+
+## Why Sampling?
+- Processing all data can be costly
 
 ## Resources:
 - [Python 3 Standard Library](https://docs.python.org/3/index.html)
@@ -12,7 +24,6 @@ Data Mining using Python is a set of lesson that introduce to Data Mining using 
 - [Pandas Document](https://pandas.pydata.org/docs/)
 - [Matplotlib Document](https://matplotlib.org/2.0.2/index.html)
 - [Scikit-Lean Document](https://scikit-learn.org/stable/modules/classes.html)
-
 
 ## Technology
 List of technology
