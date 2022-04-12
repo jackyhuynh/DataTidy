@@ -17,7 +17,15 @@ Data Mining using Python is a set of lesson that introduce to Data Mining using 
 
 ## Why Sampling?
 - Processing all data can be costly
+- Type of sampling:
+  - Progressive Sampling: Sampling until sufficient
+  - Backed test biases: Using historical data to predict how well it will do in the future
 
+## Feature Selection:
+- Technique for data preprocessing
+- Feature, attribute vs. variable: column in our dataset
+- Feature is often used when talking about removing, creating, or transforming attributes
+- 
 ## Resources:
 - [Python 3 Standard Library](https://docs.python.org/3/index.html)
 - [NumPy Reference Document](https://numpy.org/doc/stable/reference/index.html)
