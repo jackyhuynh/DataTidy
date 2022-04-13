@@ -39,7 +39,18 @@ Data Mining using Python is a set of lesson that introduce to Data Mining using 
 ## Dimensionality Reduction:
 - Dimensionality: number of attributes in a datasets
 - As dimensionality increase, data becomes more spare (difficult to clustering and meaningful measure distance)
-- 
+
+## Feature Creation:
+- Feature extraction (domain expect)
+- Feature construction
+
+## Attribute Confirmation:
+- z score value, Mean, Standard deviation
+- Z score use before performing PCA, before calculating a distance measure
+- Z-score Normalization can affect by Outliers
+
+## Exploratory Data Analysis
+
 
 ## Resources:
 - [Python 3 Standard Library](https://docs.python.org/3/index.html)
