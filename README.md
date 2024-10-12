@@ -1,126 +1,168 @@
+Here’s a tuned and structured version of your README with the concept of **Data Tidy** added and content better
+organized for clarity:
+
+---
+
 # Data Types and Data Operation Using Python
 
 ## Introduction
 
-Data Mining using Python is a set of lesson that introduce to Data Mining using Python. This is the first serial which includes:
-- Data pre-processing
-  - Dimensionality reduction
-  - Sampling
-  - Feature reduction
+This project provides a comprehensive guide to **Data Mining using Python**. It introduces key data preprocessing
+techniques, dimensionality reduction, sampling, feature selection, and data tidying principles. The project is suitable
+for learners and practitioners who want to understand how to efficiently process and manipulate data using Python.
 
-## Sampling
-- Identify statistically significant
-- Watch out for data bias
-- Try to understand the data source
-- Sample must present whole population to avoid bias
-- Limiting analyst a subset of data
+## Contents
 
-## Why Sampling?
-- Processing all data can be costly
-- Type of sampling:
-  - Progressive Sampling: Sampling until sufficient
-  - Backed test biases: Using historical data to predict how well it will do in the future
+1. **Sampling**
+2. **Feature Selection**
+3. **Dimensionality Reduction**
+4. **Data Tidying**
+5. **Attribute Confirmation**
+6. **Exploratory Data Analysis**
+7. **Getting Started**
+8. **Python for Data Science Tools**
+9. **Running Tests**
+10. **Deployment**
 
-## Feature Selection:
-- Technique for data preprocessing
-- Feature, attribute vs. variable: column in our dataset
-- Feature is often used when talking about removing, creating, or transforming attributes
-- Selecting a subset of attributes to improve the performance of a learning algorithm
-- reduce the dimensionality of the data
-- Redundant feature: duplicate feature
-- Irrelevant Feature: contain no information that is useful for the data mining task
-- Embedded based: Feature selection occurs naturally as part of the data mining algorithm
-  - Example: Decision Tree
-- Filter based: Feature are selected before data-mining algorithm is running
-  - Example: Correlation-based feature selection
-- Wrapper based: Use the data-mining algorithm as a black box to find the best subset attributes
-  - Example: Brute force feature selection
+---
 
-## Dimensionality Reduction:
-- Dimensionality: number of attributes in a datasets
-- As dimensionality increase, data becomes more spare (difficult to clustering and meaningful measure distance)
+## 1. Sampling
 
-## Feature Creation:
-- Feature extraction (domain expect)
-- Feature construction
+Sampling is a critical technique used to select a representative subset of data for analysis when processing all the
+data is not feasible.
 
-## Attribute Confirmation:
-- z score value, Mean, Standard deviation
-- Z score use before performing PCA, before calculating a distance measure
-- Z-score Normalization can affect by Outliers
+### Key Concepts:
 
-## Exploratory Data Analysis
+- **Statistical Significance**: Ensure the sample represents the population accurately to avoid bias.
+- **Avoid Bias**: Understand the data source and select a sample that represents the entire population.
+- **Types of Sampling**:
+    - **Progressive Sampling**: Incrementally increase the sample size until a satisfactory level of statistical
+      significance is reached.
+    - **Backed Test Biases**: Use historical data to evaluate how well a model will perform in the future.
 
+---
 
-## Resources:
-- [Python 3 Standard Library](https://docs.python.org/3/index.html)
-- [NumPy Reference Document](https://numpy.org/doc/stable/reference/index.html)
-- [Pandas Document](https://pandas.pydata.org/docs/)
-- [Matplotlib Document](https://matplotlib.org/2.0.2/index.html)
-- [Scikit-Lean Document](https://scikit-learn.org/stable/modules/classes.html)
+## 2. Feature Selection
 
-## Technology
-List of technology
-- Python 
-- Object Oriented Design
-- Jupyter Notebook
-- Data Visualization
-- Machine Learning
+Feature selection involves selecting a subset of the most relevant features (attributes/variables) from the dataset to
+improve the performance of machine learning algorithms.
 
-## Python for Data Science Tools:
-These are packages that are usually used for Data Science:
-- [Python 3 Standard Library](https://docs.python.org/3/index.html)
-- [NumPy Documentation](https://numpy.org/doc/stable/reference/index.html)
-- [Pandas Documentation](https://pandas.pydata.org/docs/)
-- [Mathplotlib Documentation](https://matplotlib.org/2.0.2/index.html)
+### Techniques:
 
-## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+- **Embedded Feature Selection**: Naturally occurs within the algorithm, such as in Decision Trees.
+- **Filter-Based**: Features are selected based on statistical properties before running the model, e.g.,
+  Correlation-Based Feature Selection.
+- **Wrapper-Based**: Uses a machine learning model as a black box to evaluate different combinations of features, e.g.,
+  Brute Force Feature Selection.
 
-### Prerequisites
-What things you need to install the software and how to install them
-- Jupyter Notebook: If you want just test the code, simply go to google and search for jupiter notebook or another Python online IDE. The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. 
-- Anacoda Navigator: Install Anaconda Navigator if you want to develop data-science projects using Python or R. Anaconda Navigator is a desktop graphical user interface included in Anaconda that allows you to launch applications and easily manage conda packages, environments and channels without the need to use command line commands. 
+### Why Feature Selection?
 
-### Installing
-A step by step series of examples that tell you how to get a development enviroment running
-* [Install Anacoda Navigator](https://docs.anaconda.com/anaconda/navigator/install/#:~:text=Installing%20Navigator%20Navigator%20is%20automatically%20installed%20when%20you,install%20anaconda-navigator.%20To%20start%20Navigator,%20see%20Getting%20Started.) - If you haven't downloaded and installed Anacoda Navigator yet, here's how to get started.
-* [Jupyter Notebook](https://jupyter.org/try) - Click here to go to the online free Jupiter Notebook.
+- **Improved Model Performance**: Reduces the dimensionality of the dataset, leading to faster and more efficient
+  algorithms.
+- **Redundancy Removal**: Eliminate duplicate or irrelevant features that don’t contribute meaningful information.
 
-## Running the tests
-Explain how to run the automated tests for this system:
-- There is no download IDE need, all you need is download all the src to your machine and run it.
-- Using Jupiter Notebook
-- Navigate to the file .ipynb
-- hit:
-```
-Ctrl + Enter
-```
+---
 
-## Deployment
-All the notebook can be used for research and academic basic function for Python. 
+## 3. Dimensionality Reduction
+
+Dimensionality reduction involves reducing the number of features in a dataset while retaining essential information.
+This is especially important for large datasets with many variables.
+
+### Benefits:
+
+- **Improved Clustering**: Reduces data sparsity, making it easier to apply clustering algorithms and meaningful
+  distance measures.
+- **Simplified Models**: Simplifies models by removing irrelevant or redundant features.
+
+---
+
+## 4. Data Tidying
+
+Data tidying is the process of organizing and structuring data so that it is consistent and easy to analyze. According
+to the **tidy data principles**:
+
+- **Each variable forms a column**.
+- **Each observation forms a row**.
+- **Each type of observational unit forms a table**.
+
+### Importance:
+
+- **Improved Efficiency**: Clean and well-structured data makes analysis easier and more reliable.
+- **Consistency**: Ensures consistency across datasets, allowing easier manipulation and transformation.
+
+---
+
+## 5. Attribute Confirmation
+
+Attribute confirmation ensures the reliability of the dataset’s attributes through various statistical measures:
+
+- **Z-Score Normalization**: Standardizes features before applying techniques like Principal Component Analysis (PCA) or
+  distance measures.
+- **Statistical Measures**: Mean, Standard Deviation, and Z-scores can help identify outliers and ensure the dataset is
+  ready for modeling.
+
+---
+
+## 6. Exploratory Data Analysis (EDA)
+
+EDA is essential for understanding the structure and distribution of the data before applying models. It involves:
+
+- Summarizing the data’s main characteristics.
+- Using data visualization tools such as **Matplotlib** and **Seaborn** for graphical representation.
+
+---
+
+## 7. Getting Started
+
+Follow these steps to set up the project for local development and testing.
+
+### Prerequisites:
+
+- **Jupyter Notebook**: Open-source web application for interactive computing.
+- **Anaconda Navigator**: A desktop GUI that allows you to manage Python environments, packages, and launch Jupyter
+  Notebook.
+
+### Installation:
+
+1. **Install Anaconda Navigator**: [Instructions here](https://docs.anaconda.com/anaconda/navigator/install).
+2. **Jupyter Notebook**: [Try Jupyter Notebook online](https://jupyter.org/try) or launch it through Anaconda.
+
+---
+
+## 8. Python for Data Science Tools
+
+Here are the core Python tools and libraries used in this project:
+
+- **Python 3 Standard Library**: For built-in functions and core utilities.
+- **NumPy**: For array manipulation and mathematical operations.
+- **Pandas**: For data manipulation and analysis.
+- **Matplotlib**: For plotting and visualizing data.
+- **Scikit-learn**: For machine learning algorithms and preprocessing tools.
+
+---
+
+## 9. Running Tests
+
+To run tests on this project:
+
+1. Download the source files to your machine.
+2. Navigate to the `.ipynb` files in Jupyter Notebook.
+3. Execute the cells using:
+   ```
+   Ctrl + Enter
+   ```
+
+---
+
+## 10. Deployment
+
+This project is built using Jupyter Notebook and is mainly intended for research and academic purposes. Notebooks can be
+easily deployed on any system that supports Python and Jupyter environments.
+
+---
 
 ## Built With
-* [Jupyter Notebook](https://jupyter.org/try) 
 
-## Contributing
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](). 
-
-## Authors
-
-* **Truc Huynh** - *Initial work* - [TrucDev](https://github.com/jackyhuynh)
-
-## Format
-my README.md format was retrieved from
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-* Any acknowledgments go here
+- **Jupyter Notebook**
+- **Python**
+- **NumPy, Pandas, Matplotlib, Scikit-learn**
