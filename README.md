@@ -1,8 +1,3 @@
-Here’s a tuned and structured version of your README with the concept of **Data Tidy** added and content better
-organized for clarity:
-
----
-
 # Data Types and Data Operation Using Python
 
 ## Introduction
